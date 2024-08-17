@@ -18,6 +18,7 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:b
 html {
     font-size: 16px;
 }
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 body {
     padding: 0;
@@ -45,7 +46,6 @@ body {
     align-items: center;
     padding: 12px;
     margin: 0;
-}
 
 .hero-container {
     display: block;
@@ -54,7 +54,7 @@ body {
     height: 80vh;
     padding: 0;
     margin: 0;
-}
+
 
 .hero-content {
     width: 100%;
@@ -62,10 +62,25 @@ body {
     text-align: center;
     padding: 24px;
     margin: 0 auto;
+    .hero-content {
+        position: relative;
+      }
+      
+      .hero-content {
+        width: 300px;
+        height: 100px;
+        padding: 20px;
+      
+        position: absolute;
+        top: 50%;
+        left: 50%;
+      
+        margin: -70px 0 0 -170px;
+      }
 }
 
 .aboutme-container {
-    background: #29326a;
+    background: #74b44a;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -324,11 +339,39 @@ footer {
         justify-content: center;
         align-items: flex-start;
     }
-
+    { <div class="container">
+    <div style="text-align:center">
+    <h2>Contact Us</h2>
+    <p>Major Big Lizard:</p>
+    </div>
+    <div class="row">
+    <div class="column">
+    <img src="C:\Users\shado\Downloads\leetfile.jpg" style="width:100%">
+    </div>
+    <div class="column">
+    <form action="/action_page.php">
+    <label for="fname">Big</label>
+    <input type="text" id="fname" name="Big" placeholder="Big Lizard">
+    <label for="lname">Lizard</label>
+    <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Where to talk about big ole monsters" style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
     .main-nav {
         display: block;
     }
-
+}<h1>Active Fight Scene</h1>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2990.274257380938!2d-70.56068388481569!3d41.45496659976631!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e52963ac45bbcb%3A0xf05e8d125e82af10!2sDos%20Mas!5e0!3m2!1sen!2sus!4v1671220374408!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  
     .mobile-nav {
         display: none;
     }
